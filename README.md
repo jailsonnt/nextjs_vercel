@@ -2,6 +2,7 @@ USING PNPM
 
 pnpm i  --- install packages
 pnpm dev --- starts app dev mode on port 3000
+pnpm i @vercel/postgres //vercel postgres SDK
 
 
 ## Next.js App Router Course - Starter
