@@ -4,6 +4,14 @@ pnpm i  --- install packages
 pnpm dev --- starts app dev mode on port 3000
 pnpm i @vercel/postgres //vercel postgres SDK
 pnpm i use-debounce
+pnpm i next-auth@beta 
+
+##Authentication
+use openssl rand -base64 32 to generate a key and add to AUTH_SECRET in .env file
+
+-Auth.config.ts file add details  to what needs to be configured related to authentication
+-middleware.ts
+-auth.ts
 
 pnpm i next@canary---para usar o prerendering e as funcionalidades experiementais resultantes da alteração em next.config.ts e layout.tsx essa alteração na versão do next é necessaria
 
