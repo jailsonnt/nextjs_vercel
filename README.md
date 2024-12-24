@@ -13,6 +13,12 @@ use openssl rand -base64 32 to generate a key and add to AUTH_SECRET in .env fil
 -middleware.ts
 -auth.ts
 
+
+##test credentials
+Email: user@nextmail.com
+Password: 123456
+
+
 pnpm i next@canary---para usar o prerendering e as funcionalidades experiementais resultantes da alteração em next.config.ts e layout.tsx essa alteração na versão do next é necessaria
 
 
